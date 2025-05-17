@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+}
+
+h1 {
+  font-family: 'Patrick Hand', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  background: linear-gradient(90deg, #FFA500, #FF8C00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-family: 'Coming Soon', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+}
